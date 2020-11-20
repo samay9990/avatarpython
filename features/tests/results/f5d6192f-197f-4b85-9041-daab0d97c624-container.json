@@ -1,0 +1,1 @@
+{"uuid": "8804da24-ac5d-4dc6-86eb-d395216f64db", "befores": [{"name": "pytestbdd_when_User changes the claim status open to '{claim_status}'", "status": "passed", "start": 1599144267834, "stop": 1599144267834}], "start": 1599144267834, "stop": 1599144271960}

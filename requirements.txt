@@ -1,0 +1,6 @@
+pyyaml
+selenium
+pytest
+pytest-bdd
+pytest-xdist
+allure-pytest

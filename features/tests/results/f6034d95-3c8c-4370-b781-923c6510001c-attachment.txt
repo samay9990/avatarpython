@@ -1,0 +1,5 @@
+Browser Path: C:\Users\samay\PycharmProjects\pytestbdddemo\pytestbdddemo\browsers\chromedriver.exe
+User navigated to Home Page
+User clicked on item
+CLICKED ON SEARCH BUTTON
+Scenario--> Verify that user can edit claim 2

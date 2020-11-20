@@ -1,0 +1,12 @@
+Browser Path: C:\Users\samay\PycharmProjects\pytestbdddemo\pytestbdddemo\browsers\chromedriver.exe
+User navigated to Home Page
+User clicked on item
+CLICKED ON SEARCH BUTTON
+ALL TOASTS ARE  [<selenium.webdriver.remote.webelement.WebElement (session="69e4cd7c4e9b8b54c575d506e8b6e56a", element="fc5713b2-ff26-43f4-92c1-90fed2a7d051")>, <selenium.webdriver.remote.webelement.WebElement (session="69e4cd7c4e9b8b54c575d506e8b6e56a", element="27e3b902-1b45-4ded-893f-c3bd4e4acbe0")>]
+ALL TOASTS IN ERROR METHOD ARE  [<selenium.webdriver.remote.webelement.WebElement (session="69e4cd7c4e9b8b54c575d506e8b6e56a", element="fc5713b2-ff26-43f4-92c1-90fed2a7d051")>, <selenium.webdriver.remote.webelement.WebElement (session="69e4cd7c4e9b8b54c575d506e8b6e56a", element="27e3b902-1b45-4ded-893f-c3bd4e4acbe0")>]
+ERROR TOAST DOES NOT EXIST
+ALL TOASTS ARE  [<selenium.webdriver.remote.webelement.WebElement (session="69e4cd7c4e9b8b54c575d506e8b6e56a", element="fc5713b2-ff26-43f4-92c1-90fed2a7d051")>, <selenium.webdriver.remote.webelement.WebElement (session="69e4cd7c4e9b8b54c575d506e8b6e56a", element="27e3b902-1b45-4ded-893f-c3bd4e4acbe0")>]
+CLASS IN SUCCESS TOATST: Toastify__toast Toastify__toast--warning Toastify__bounce-enter--top-right
+CLASS IN SUCCESS TOATST: Toastify__toast Toastify__toast--success Toastify__bounce-enter--top-right
+SUCCESS TOAST MESSAGE IS:  Claim details updated successfully
+Scenario--> Verify that user can edit claim 2

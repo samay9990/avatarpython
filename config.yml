@@ -1,0 +1,15 @@
+browser: 'chrome'
+dev:
+  url: 'http://3.214.164.90/login'
+  default_user:
+    username: 'samaythakkar'
+    password: 'password'
+  claim_user:
+    username: 'coresys'
+    password: 'Mumbai1@'
+stage:
+  url: 'https://www.demoblaze.com/'
+  default_user:
+    username: 'samaythakkar'
+    password: 'password'
+env: 'dev'

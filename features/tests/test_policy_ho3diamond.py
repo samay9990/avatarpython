@@ -34,7 +34,7 @@ def test_verify_the_ho3_element_fields_under_policy8():
 
 @scenario('TestCases\policy_createquote_ho3diamond.feature', 'Verify the HO3 Diamond fields under policy')
 def test_verify_the_ho3_element_fields_under_policy7():
-    """Verify the HO3 Element fields under policy."""
+    """Verify the HO3 Element fields under policy.
 
 @scenario('TestCases\policy_createquote_ho3diamond.feature', 'Verify the HO3 Diamond fields under policy fire and hydrant error')
 def test_verify_the_ho3_element_fields_under_policy6():
@@ -73,6 +73,7 @@ def user_clicks_ho3element_direct_card():
 def user_clicks_property_details():
     """User clicks Property Details."""
     avatarCreatequote.click_propertydetails()
+
 
 
 

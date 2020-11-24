@@ -19,11 +19,11 @@ avatarClaimsHomepage = AvatarClaimsHomepage()
 avatartoast = AvatarToastMessages()
 
 
-@scenario(r'TestCases\claim_edit.feature', 'Verify that user can edit claim')
+@scenario(r'TestCases/claim_edit.feature', 'Verify that user can edit claim')
 def test_verify_that_user_can_edit_claim():
     print('Scenario--> Verify that user can edit claim')
 
-@scenario(r'TestCases\claim_edit.feature', 'Verify that user can edit claim by changing values in all tabs')
+@scenario(r'TestCases/claim_edit.feature', 'Verify that user can edit claim by changing values in all tabs')
 def test_verify_that_user_can_edit_claim_2():
     print('Scenario--> Verify that user can edit claim 2')
 

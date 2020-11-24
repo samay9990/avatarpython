@@ -1,6 +1,6 @@
 pyyaml
 selenium
-pytest==3.6.0
+pytest
 pytest-bdd
 pytest-xdist
 allure-pytest

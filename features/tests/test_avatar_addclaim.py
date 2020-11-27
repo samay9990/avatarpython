@@ -23,7 +23,7 @@ avatarClaimPage = AvatarClaimpage()
 avatarTopNavBar = AvatarTopNavBar()
 avatarClaimsHomepage = AvatarClaimsHomepage()
 avatartoast = AvatarToastMessages()
-@scenario('TestCases\claim_add.feature', 'Verify that user can add new claim')
+@scenario('TestCases/claim_add.feature', 'Verify that user can add new claim')
 def test_verify_that_user_can_add_new_claim():
     """Verify that user can add claim - 2."""
 

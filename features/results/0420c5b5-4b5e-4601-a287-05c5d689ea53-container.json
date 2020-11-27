@@ -1,1 +1,0 @@
-{"uuid": "3f288552-b6b9-46ab-9381-06a2cc7f78e5", "befores": [{"name": "pytestbdd_then_User should see green toast having message '{expected_message}'", "status": "passed", "start": 1599473524817, "stop": 1599473524817}], "start": 1599473524817, "stop": 1599473524947}

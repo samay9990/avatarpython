@@ -1,7 +1,0 @@
-Browser Path: C:\Users\samay\PycharmProjects\pytestbdddemo\pytestbdddemo\browsers\chromedriver.exe
-User navigated to Home Page
-User clicked on item
-CLICKED ON SEARCH BUTTON
-ALL TOASTS ARE  [<selenium.webdriver.remote.webelement.WebElement (session="5aa620ec8ac5d230fdeec5673c359e13", element="664d0b43-dfe6-4e61-84a0-0261bbf8fed3")>]
-ALL TOASTS IN ERROR METHOD ARE  [<selenium.webdriver.remote.webelement.WebElement (session="5aa620ec8ac5d230fdeec5673c359e13", element="664d0b43-dfe6-4e61-84a0-0261bbf8fed3")>]
-ERROR TOAST MESSAGE IS:  Undefined index: claim_type_text

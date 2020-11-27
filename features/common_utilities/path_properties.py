@@ -1,6 +1,7 @@
 from pathlib import Path
 from features.common_utilities.file_folder_constants import FileFolderConstants
 import os
+import platform
 class PathProperties:
 
     def __get_project_root(self):
@@ -26,7 +27,12 @@ class PathProperties:
 
     def get_chromedriver_path(self):
         try:
-            chromedriver_path = os.path.join(self.__get_browsers_root_path(), FileFolderConstants.CHROMEDRIVER)
+            current_platform = platform.platform().lower()
+            print("PLATFORM IS ", current_platform)
+            if "linux" in current_platform:
+                chromedriver_path = os.path.join(self.__get_browsers_root_path(), FileFolderConstants.CHROMEDRIVER_LINUX)
+            elif "windows" in current_platform:
+                chromedriver_path = os.path.join(self.__get_browsers_root_path(), FileFolderConstants.CHROMEDRIVER)
             return chromedriver_path
         except Exception as e:
             raise Exception("Exception occured while getting the chromedriver path --> ",e)

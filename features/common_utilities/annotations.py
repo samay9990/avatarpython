@@ -1,5 +1,7 @@
 import pytest
 from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
+
 from features.common_utilities.path_properties import PathProperties
 from features.common_utilities.yaml_handler import YamlHandler
 import allure
@@ -25,7 +27,11 @@ class Annotations:
             if browser == 'chrome':
                 driver_path = PathProperties().get_chromedriver_path()
                 print("Browser Path:", driver_path)
-                pytest.driver = webdriver.Chrome(driver_path)
+                chrome_options = Options()
+                chrome_options.add_argument('--headless')
+                chrome_options.add_argument('--no-sandbox')
+                chrome_options.add_argument('--disable-dev-shm-usage')
+                pytest.driver = webdriver.Chrome(driver_path,chrome_options=chrome_options)
             elif browser == 'firefox':
                 driver_path = PathProperties().get_firefoxdriver_path()
                 print("Browser Path:", driver_path)

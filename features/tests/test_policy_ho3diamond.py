@@ -1,5 +1,6 @@
 # coding=utf-8
 """Avatar Policy Create Quote feature tests."""
+import sys
 
 from features.business_logic.avatar_loginpage import AvatarLoginPage
 from features.business_logic.avatar_claims_intakepage import AvatarClaimsIntakePage
@@ -34,7 +35,7 @@ def test_verify_the_ho3_element_fields_under_policy8():
 
 @scenario('TestCases\policy_createquote_ho3diamond.feature', 'Verify the HO3 Diamond fields under policy')
 def test_verify_the_ho3_element_fields_under_policy7():
-    """Verify the HO3 Element fields under policy.
+    """Verify the HO3 Element fields under policy."""
 
 @scenario('TestCases\policy_createquote_ho3diamond.feature', 'Verify the HO3 Diamond fields under policy fire and hydrant error')
 def test_verify_the_ho3_element_fields_under_policy6():
@@ -61,7 +62,6 @@ def test_verify_the_ho3_element_fields_under_policy1():
 def user_is_on_avatars_login_page():
     """User is on Avatars login page."""
     avatarLoginPage.open_avatar()
-
 
 @when('User clicks HO3 Diamond card')
 def user_clicks_ho3element_direct_card():

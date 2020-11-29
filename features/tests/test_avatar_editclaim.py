@@ -1,3 +1,6 @@
+import os
+import sys
+
 from pytest_bdd import scenario, given, when, then
 from features.business_logic.avatar_loginpage import AvatarLoginPage
 from features.business_logic.avatar_claims_intakepage import AvatarClaimsIntakePage
@@ -23,6 +26,7 @@ avatartoast = AvatarToastMessages()
 def test_verify_that_user_can_edit_claim():
     print('Scenario--> Verify that user can edit claim')
 
+
 @scenario(r'TestCases/claim_edit.feature', 'Verify that user can edit claim by changing values in all tabs')
 def test_verify_that_user_can_edit_claim_2():
     print('Scenario--> Verify that user can edit claim 2')
@@ -31,7 +35,7 @@ def test_verify_that_user_can_edit_claim_2():
 @given("User is on Avatar Insurance Login Page")
 def go_to_homepage():
     avatarLoginPage.open_avatar()
-    print("User navigated to Home Page")
+    print(sys.path[0])
 
 
 @when(parsers.cfparse("User logs in with user '{user}'"))

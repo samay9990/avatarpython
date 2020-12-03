@@ -4,3 +4,5 @@ pytest
 pytest-bdd
 pytest-xdist
 allure-pytest
+allure-pytest-bdd
+allure-python-commons

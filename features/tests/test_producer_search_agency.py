@@ -33,7 +33,7 @@ def go_to_homepage():
 @when(parsers.cfparse("User logs in with user '{user}'"))
 def click_on_login_btn(user):
     avatarLoginPage.login(user)
-    print("User clicked on item")
+    print("User clicked on item1")
 
 @when("User clicks on producer in top navigation bar")
 def click_on_claim_in_top_navigation_bar():

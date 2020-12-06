@@ -1,5 +1,5 @@
 # coding=utf-8
-"""Avatar Add Claim feature tests."""
+"""Avatar Add Claim feature tests"""
 from pytest_bdd import scenario, given, when, then
 from features.business_logic.avatar_loginpage import AvatarLoginPage
 from features.business_logic.avatar_claims_intakepage import AvatarClaimsIntakePage
